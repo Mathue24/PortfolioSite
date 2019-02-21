@@ -1,26 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<title>Lemon Time</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<style>
+		.jumbotron{
+			background-color:#2E2D88;
+			color:white;
+		}
+		.tab-content {
+			border-left: 1px solid #ddd;
+			border-right: 1px solid #ddd;
+			border-bottom: 1px solid #ddd;
+			padding: 10px;
+		}
+		.nav-tabs {
+			margin-bottom: 0;
+		}
+		
+		#corgiLemon{
+			display: none;
+			padding-top: 20px;
+		}
+		#corgiPumpkin{
+			display: none;
+			padding-top: 20px;
+		}
+		#corgiNutella{
+			display: none;
+			padding-top: 20px;
+		}
+	</style>
 </head>
 <body>
-
-<button type="button" class="btn btn-outline-success" title="Hello" data-toogle="popover" data-content="Time to eat!" data-placement="right" onclick="myFunction()"> Lemon Time! </button>
-
-	<div id="myDIV">
+	<div class="container">	
+		<div class="page-header">
+			<h1>Boostrap!?</h1>
+		</div>
+		<div class="jumbotron">
+			<p>AWAWAWAWAW HAHA LEMON</p>
+			<div class="btn-group btn-group-lg" role="group" aria-label="...">
+				<button type="button" class="btn btn-default" onclick="lemonFunction()">Lemon</button>
+				<button type="button" class="btn btn-default" onclick="pumpkinFunction()">Pumpkin!?</button>
+				<button type="button" class="btn btn-default" onclick="nutellaFunction()">NUTELLA!?!?!</button>
+			</div>
+			<br>
+			<img id="corgiLemon" src="resources/lemon.png">
+			<img id="corgiPumpkin" src="resources/pumpkin.png">
+			<img id="corgiNutella" src="resources/nutella.png">
+		</div>
 	</div>
-	
-	<script>
-	function myFunction() {
-	  var x = document.getElementById("myDIV");
-	  if (x.style.display === "block") {
-		x.style.display = "none";
-	  } else {
-		x.style.display = "block";
-	  }
-	}
-	</script>
 
+	<script>
+			function lemonFunction() {
+				var fruit = document.getElementById("corgiLemon");
+				var y = document.getElementById("corgiPumpkin");
+				var z = document.getElementById("corgiNutella");
+				if (fruit.style.display === "block") {
+					fruit.style.display = "none";
+				} else {
+					fruit.style.display = "block";
+					y.style.display = "none";
+					z.style.display = "none";
+				}
+			}
+			function pumpkinFunction() {
+				var fruit = document.getElementById("corgiPumpkin");
+				var y = document.getElementById("corgiLemon");
+				var z = document.getElementById("corgiNutella");
+				if (fruit.style.display === "block") {
+					fruit.style.display = "none";
+				} else {
+					fruit.style.display = "block";
+					y.style.display = "none";
+					z.style.display = "none";
+				}
+			}
+			function nutellaFunction() {
+				var fruit = document.getElementById("corgiNutella");
+				var y = document.getElementById("corgiPumpkin");
+				var z = document.getElementById("corgiLemon");
+				if (fruit.style.display === "block") {
+					fruit.style.display = "none";
+				} else {
+					fruit.style.display = "block";
+					y.style.display = "none";
+					z.style.display = "none";
+				}
+			}
+			</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
