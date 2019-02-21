@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button type="button" class="btn btn-outline-success" title="Hello" data-toogle="popover" data-content="Time to eat!" data-placement="right" onclick="myFunction()"> Lemon Time! </button>
+
+	<div id="myDIV">
+	</div>
+	
+	<script>
+	function myFunction() {
+	  var x = document.getElementById("myDIV");
+	  if (x.style.display === "block") {
+		x.style.display = "none";
+	  } else {
+		x.style.display = "block";
+	  }
+	}
+	</script>
+
+</body>
+</html>
