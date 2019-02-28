@@ -1,0 +1,36 @@
+body {
+	text-align: center;
+}
+.jumbotron{	
+	background-color:#2E2D88;
+	color:white;
+}
+.tab-content {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+}
+.nav-tabs {
+	margin-bottom: 0;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#corgiLemon{
+	display: none;
+	padding-top: 20px;
+}
+#corgiPumpkin{
+	display: none;
+	padding-top: 20px;
+}
+#corgiNutella{
+	display: none;
+	padding-top: 20px;
+}
