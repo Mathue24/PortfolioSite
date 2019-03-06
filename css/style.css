@@ -21,18 +21,10 @@ body {
 	margin-right: auto;
 	width: 50%;
 }
-
-#corgiLemon{
+.doggo{
 	display: none;
 	padding-top: 20px;
-}
-#corgiPumpkin{
-	display: none;
-	padding-top: 20px;
-}
-#corgiNutella{
-	display: none;
-	padding-top: 20px;
+	.center;
 }
 @media screen and (max-width: 400px) {
 	.btn-group-lg>.btn{
