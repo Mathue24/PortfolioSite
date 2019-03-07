@@ -25,6 +25,13 @@ body {
 	display: none;
 	padding-top: 20px;
 }
+.carousel-image{
+	width: 100%;
+}
+.carousel-caption {
+    top: auto;
+    bottom: 25%;
+}
 @media screen and (max-width: 400px) {
 	.btn-group-lg>.btn{
 		padding: 10px 10px;

@@ -12,13 +12,55 @@
 	<script src="js/script.js"></script>
 </head>
 <body>
-	<br>
-	Hello.
-	I'm a person.
-	<br>
-	<a href="./contact.html" class="btn btn-default">Here's a thing...</a>
-	<a href="./hobbies.html" class="btn btn-default">And here's one too</a>
-	<br>
-	Good luck lol.
+	<div id="theCarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#theCarousel" data-slide-to="0" class="acive"></li>
+			<li data-target="#theCarousel" data-slide-to="1"></li>
+			<li data-target="#theCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="./img/space.png" alt="SPACTIM" class="carousel-image">
+				<div class="carousel-caption">
+
+					<h1>Hello.</h1>
+					<h2>I'm a person.</h2>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="./img/space.png" alt="SPACTIM" class="carousel-image">
+				<div class="carousel-caption">
+					
+					<h3>So...</h3>
+					<br>
+					<a href="./hobbies.html" class="btn btn-default btn-lg">Here's a thing.</a>
+					<br>
+					<br>
+					<a href="./contact.html" class="btn btn-default btn-lg">And here's one too!</a>
+					<br>
+					<h3>Good luck lol.</h3>
+
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="./img/space.png" alt="SPACTIM" class="carousel-image">
+				<div class="carousel-caption">
+
+					<h1>Idk what to put here.</h1>
+					<h2>Lorem ipsum... I guess...</h2>
+
+				</div>
+			</div>
+		</div>
+
+		<a class="left carousel-control" href="#theCarousel" data-slide="prev">
+			<span class="glypthicon glypthicon-chevron-left"></span>
+
+		<a class="right carousel-control" href="#theCarousel" data-slide="next">
+			<span class="glypthicon glypthicon-chevron-right"></span>
+
+	</div>
 </body>
 </html>
