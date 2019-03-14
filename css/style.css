@@ -205,12 +205,7 @@ header h2 {
 	 }
  }
  #contact .block:hover{
-	color: white;
-	font-weight: 700;
 	background-color: #128f76;
-	padding: 25px;
-	border: solid 100px white;
-	text-align: center;
  }
 
  #contact a{
