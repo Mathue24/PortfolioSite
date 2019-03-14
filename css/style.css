@@ -175,16 +175,16 @@ header h2 {
  }
 
  /*Contact*/
- #contact .block{
+.block{
 	color: white;
 	font-weight: 700;
 	background-color: #18BC9C;
 	padding: 25px;
-	border: solid 100px white;
+	border: solid 20px white;
 	text-align: center;
  }
  @media screen and (max-width: 1100px){
-	#contact .block{
+	.block{
 		color: white;
 		font-weight: 700;
 		background-color: #18BC9C;
@@ -194,7 +194,7 @@ header h2 {
 	 }
  }
  @media screen and (max-width: 800px){
-	#contact .block{
+	.block{
 		color: white;
 		font-weight: 700;
 		background-color: #18BC9C;
@@ -204,10 +204,14 @@ header h2 {
 		font-size: 0.85rem;
 	 }
  }
- #contact .block:hover{
+ .block:hover{
 	background-color: #128f76;
  }
 
- #contact a{
-	 color: white;
+.block a{
+	color: white;
+ }
+
+ .block p {
+	margin: 0;
  }
